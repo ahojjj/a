@@ -1,0 +1,16 @@
+﻿<Window x:Class="noty.Moreitm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:noty"
+      WindowStyle="None"
+      mc:Ignorable="d" 
+      x:Name="More" Height="300" Width="500">
+    <Grid Background="BlueViolet">
+        <Menu Background="#FF7A38BC">
+            <Button Content="cello" Click="cello" Height="18" Width="77" Foreground="White" BorderBrush="#FF30015B" Background="#FF4A0887"/>
+        </Menu>
+
+    </Grid>
+</Window>
